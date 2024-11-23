@@ -1,0 +1,162 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: judson;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 99);
+    letter-spacing: 3px;
+    background-image: url(back.png);
+}
+
+.enrollment-form-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid;
+    background: rgba(106, 75, 207, 0.9);
+}
+
+ol li {
+    margin: 0 0 20px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.form-label {
+   display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+
+input, select, button, table {
+    font-size: 14px;
+}
+
+.form-label {
+    color: rgb(0, 0, 0);
+}
+
+.radio-option-label {
+    color: rgb(0, 0, 0);
+    display: inline;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.interests-list {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+input, select {
+    width: 800px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+.birth{
+        
+}
+
+
+
+
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.checkbox-option-label {
+    display: inline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table tr:nth-child(even), table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+table tr:hover {
+    background-color: #958c8c;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.submit-btn:hover {
+    background-color: #4d4c51;
+    color: rgb(0, 0, 0);
+}
+#fullName{
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#fullName1{
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+#fullName2{
+    width: 65px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}

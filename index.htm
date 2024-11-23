@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="enrollment-form-container">
+        
+        <h1>Student Enrollment Form</h1>
+
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Fill in the form fields.</li>
+            <li>Check your interests.</li>
+            <li>Click "Enroll Now" to submit.</li>
+        </ol>
+
+        <form action="/submit">
+            <label for="fullName" class="form-label">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Last Name" required>
+            <input type="text" id="fullName1" name="fullName" placeholder="First Name" required>
+            <input type="text" id="fullName2" name="fullName" placeholder="M.I" required>
+
+            <label for="email" class="form-label">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="date" class="form-label">Date Birth:</label>
+            <input type="date" class="birth">
+
+            <label for="age" class="form-label">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+            <label class="form-label">Sex:</label>
+            <label for="male" class="radio-option-label">Male</label>
+            <input type="radio" id="male" name="sex" value="Male" required>
+            <label for="female" class="radio-option-label">Female</label>
+            <input type="radio" id="female" name="sex" value="Female" required>
+
+            <label for="course" class="form-label">Course Options:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a course</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSSW">BSSW</option>
+                <option value="BSPA">BSPA</option>
+                <option value="DHRA">DHRS</option>
+                <option value="BSAIS">BSAIS</option>
+            </select>
+
+            <label class="form-label">Interests:</label>
+            <div class="interests-list">
+                <input type="checkbox" id="cyber" name="interests" value="Cyber Security">
+                <label for="cyber" class="checkbox-option-label">Animation</label>
+                <br>
+                <input type="checkbox" id="webDev" name="interests" value="Web Development">
+                <label for="webDev" class="checkbox-option-label">Computer Programming</label>
+                <br>
+                <input type="checkbox" id="gameDev" name="interests" value="Game Development">
+                <label for="gameDev" class="checkbox-option-label">Potography</label>
+                <br>
+                <input type="checkbox" id="graphicDesign" name="interests" value="Graphic Design">
+                <label for="graphicDesign" class="checkbox-option-label">Computer Systems Servicing</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Enroll Now</button>
+        </form>
+
+        <h3>Student Records</h3>
+        <table class="student-records-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Sex</th>
+                    <th>Course</th>
+                    <th>Interests</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Justine deso</td>
+                    <td>desopogi143@example.com</td>
+                    <td>21</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Animation</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Renato Cruz jr ako</td>
+                    <td>otanerisoygods911@example.com</td>
+                    <td>23</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Potography</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jason Esmen</td>
+                    <td>esmenmapagmahal1432@example.com</td>
+                    <td>20</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Potography</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jc Rodriguez</td>
+                    <td>akosijeysiinakaraider555@example.com</td>
+                    <td>22</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Computer Programming</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Rainan Nabo</td>
+                    <td>chickboyako143@example.com</td>
+                    <td>24</td>
+                    <td>Male</td>
+                    <td>BSIT</td>
+                    <td>Computer Systems Servicing</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
